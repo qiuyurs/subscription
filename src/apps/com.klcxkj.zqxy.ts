@@ -56,5 +56,15 @@ export default defineAppConfig({
         },
       ],
     },
+    {
+        "key": 0,
+        "name": "用水页条幅广告A",
+        "quickFind": true,
+        "matchTime": 10000,
+        "actionMaximum": 1,
+        "resetMatch": "app",
+        "rules": "[id='com.klcxkj.zqxy:id/anythink_base_media_ad_close']",
+        "snapshotUrls": "https://i.gkd.li/import/13348363"
+    },
   ],
 });
